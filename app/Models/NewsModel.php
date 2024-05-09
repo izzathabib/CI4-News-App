@@ -9,7 +9,7 @@ class NewsModel extends Model
     protected $table = 'news';
 
     /**
-     * @param false|string $slug
+     * @param false|string $slug // Store specific news item
      *
      * @return array|null
      */
