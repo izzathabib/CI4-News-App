@@ -108,7 +108,7 @@ class Filters extends BaseFilters
     public array $filters = [];
 }
 
-class Filters extends BaseConfig {
+class Filter extends BaseConfig {
     public $methods = [
         // Enable csrf filter for all POST requests
         'POST' => ['csrf'],
