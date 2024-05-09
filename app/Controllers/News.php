@@ -42,4 +42,15 @@ class News extends BaseController {
 
     return view('templates/header',$data).view('news/view').view('templates/footer');
   }
+
+  // Method to display the HTML form
+  public function new() {
+    
+    // Load form helper to display the form using helper() function
+    helper('form');
+
+    return view('templates/header',['title'=>'Create a news item'])
+           .view('news/create')
+           .view('templates/footer');
+  }
 }
