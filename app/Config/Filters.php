@@ -2,6 +2,8 @@
 
 namespace Config;
 
+// Import class
+use CodeIgniter\Config\BaseConfig;
 use CodeIgniter\Config\Filters as BaseFilters;
 use CodeIgniter\Filters\Cors;
 use CodeIgniter\Filters\CSRF;
@@ -104,4 +106,11 @@ class Filters extends BaseFilters
      * @var array<string, array<string, list<string>>>
      */
     public array $filters = [];
+}
+
+class Filters extends BaseConfig {
+    public $methods = [
+        // Enable csrf filter for all POST requests
+        'POST' => ['csrf'],
+    ];
 }

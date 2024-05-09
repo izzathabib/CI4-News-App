@@ -1,8 +1,8 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\NewsModel; 
-use CodeIgniter\Exceptions\PageNotFoundException;// Declare model that we want to use
+use App\Models\NewsModel; // Declare model that we want to use
+use CodeIgniter\Exceptions\PageNotFoundException;
 
 class News extends BaseController {
 
