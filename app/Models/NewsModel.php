@@ -8,6 +8,8 @@ class NewsModel extends Model
 {
     protected $table = 'news';
 
+    // This line will allow data to be save to the database.
+    protected $allowedFields = ['title', 'slug', 'body'];
     /**
      * @param false|string $slug // Store specific news item
      *
