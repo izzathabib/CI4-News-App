@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>CodeIgniter Tutorial</title>
+    <title><?= esc($title) ?></title>
 </head>
 <body>
     <!-- esc(): CodeIgniter global function
