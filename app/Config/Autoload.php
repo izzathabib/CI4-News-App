@@ -91,29 +91,4 @@ class Autoload extends AutoloadConfig
      * @var list<string>
      */
     public $helpers = [];
-
-    $autoload['adminlte_assets'] = [
-        'App'        => true,
-        'Config'     => true,
-        'Database'  => true,
-        'Formatter'  => true,
-        'Helper'     => true,
-        'Lang'       => true,
-        'Library'    => true,
-        'Loader'     => true,
-        'Model'      => true,
-        'Route'      => true,
-        'Security'   => true,
-        'Session'    => true,
-        'Service'    => true,
-        'Text'       => true,
-        'Throttle'   => true,
-        'URL'        => true,
-        'Validation' => true,
-        'public/assets' => [ 
-                'css/' => [],
-                'js/'  => [],
-                'plugins/' => [],
-        ],
-    ];
 }
