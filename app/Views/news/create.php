@@ -1,5 +1,3 @@
-<h2><?= esc($title) ?></h2>
-
 <!-- 1. Used to get session object 
      2. getFlashdata('error'): Used to display error related to
         csrf protection -->
