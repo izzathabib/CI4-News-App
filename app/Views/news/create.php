@@ -1,3 +1,12 @@
+<div class="content-wrapper">
+
+<!-- Content Header (Page header) -->
+<section class=""content-header>
+     <div class="container-fluid">
+          <h1><?= esc($title) ?></h1>
+     </div> <!-- /.container-fluid -->
+</section>
+
 <!-- 1. Used to get session object 
      2. getFlashdata('error'): Used to display error related to
         csrf protection -->
@@ -22,3 +31,4 @@
 
   <input type="submit" name="submit" value="Create news item">
 </form>
+</div>

@@ -55,7 +55,8 @@ class News extends BaseController {
     // Load form helper to display the form using helper() function
     helper('form');
 
-    return view('templates/header', ['title' => 'Create new news item'])
+    return view('templates/header', ['title' => 'Create news item'])
+           .view('templates/sidebar')
            .view('news/create')
            .view('templates/footer');
   }
