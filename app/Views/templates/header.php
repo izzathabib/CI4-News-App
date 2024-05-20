@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+    <style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: circular;
+
+  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: circular;
+
+  src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Bold.woff2') format('woff2');
+}</style>
+<style data-styled="active" data-styled-version="5.3.8"></style>
+    
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
